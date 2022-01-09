@@ -1,0 +1,68 @@
+body{
+  background-color: #FAEDC6;
+}
+
+
+.App{
+  background-color: #fff;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed{
+  text-decoration: line-through 2px #C84B31;
+  background-color: #eff5f4;
+}
+
+.imageIcon{
+  margin-right: 10px;
+}
+
+ul,li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.imageOne, .imageTwo{
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+.add{
+  margin-top: 5px;
+  background:#cdd6a7;
+}
+
+.delete{
+  background: #C84B31;
+  margin-bottom: 5px;
+}
+
+.btn{
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: #fff;
+  font-size: 17px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Libre Baskerville', serif;
+
+}
